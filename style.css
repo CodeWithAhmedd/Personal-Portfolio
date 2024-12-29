@@ -42,10 +42,12 @@ nav{
     text-shadow: 1px 1px 10px white;
 }
 .h1{
-    font-size: 60px;
+    font-size: 50px;
     color: white;
     font-weight: 700;
-    margin: 30px;
+    position: relative;
+    top: 60px;
+    left: 70px;
     width: 500px;
 }
 span{
@@ -53,17 +55,22 @@ span{
     font-weight: 700;
 }
 p{
-    width: 400px;
-    margin: 30px;
+    width: 440px;
+    position: relative;
+    left: 70px;
+    top: 80px;
+    line-height: 40px;
     color: #ffffff;
     word-spacing: 5px;
-    font-size: 25px;
+    font-size: 20px;
+    text-transform: capitalize;
 }
 
 .main-gif1 img{
-    width: 650px;
+    width: 500px;
+    height: 450px;
     z-index: -1;
     position: absolute;
-    top: 40px;
-    right: 10px;
+    top: 60px;
+    right: 70px;
 }
